@@ -16,7 +16,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -36,13 +36,71 @@ jobs:
           echo test, and deploy your project.
       - name: mkdir
         run: mkdir artifact && cd artifact
-      - name: zero
-        run: |
-          dd ibs=16M count=512M status=progress < /dev/zero | brotli -Z --large_window=0 > zero.br
           
       - name: eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
         run: |
-          dd ibs=16M count=512M status=progress < /dev/random | tr -cd e | brotli -Z --large_window=0 > zero.br
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=0 > zero0.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=1 > zero1.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=2 > zero2.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=3 > zero3.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=4 > zero4.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=5 > zero5.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=6 > zero6.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=7 > zero7.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=8 > zero8.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=9 > zero9.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=10 > zero10.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=11 > zero11.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=12 > zero12.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=13 > zero13.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=14 > zero14.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=15 > zero15.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=16 > zero16.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=17 > zero17.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=18 > zero18.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=19 > zero19.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=20 > zero20.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=21 > zero21.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=22 > zero22.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=23 > zero23.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=24 > zero24.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=25 > zero25.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=26 > zero26.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=27 > zero27.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=28 > zero28.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=29 > zero29.br &
+          sleep 3600 && killall dd
+          dd status=progress < /dev/random | tr -cd e | brotli -Z --large_window=30 > zero30.br &
+          sleep 3600 && killall dd
 
       - name: chdir
         run: cd ..
