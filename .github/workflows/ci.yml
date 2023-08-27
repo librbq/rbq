@@ -34,7 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          sudo 'apt update && apt install pv -y'
+          sudo sh -c 'apt update && apt install pv -y'
       - name: mkdir
         run: mkdir artifact && cd artifact
           
