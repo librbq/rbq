@@ -40,7 +40,7 @@ jobs:
           
       - name: e30e
         run: |
-          sh -c "sleep 3599m ; killall tr" &
+          sh -c "sleep 3s ; killall tr" &
           tr -cd e < /dev/urandom | pv | brotli -Z > e30e.br &
       - name: chdir
         run: |
